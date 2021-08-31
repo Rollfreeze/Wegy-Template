@@ -1,0 +1,381 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* header
+============================*/
+
+.header {
+    background-color: #fff;
+    
+    box-shadow: 0 7px 5px #EFF1F3;
+}
+
+.title {
+    display: block;
+
+    text-transform: uppercase;
+    color:#333333;
+
+    font-size: 26px;
+}
+
+.sub-title {
+    color:#888888;
+
+    padding-top: 10px;
+
+}
+
+.about-title, .sphere-title{
+    font-weight: 600;
+    margin: 0;
+    color: #333333;
+    font-size: 45px;
+    font-family: Ubuntu-Light,Ubuntu,BadScript-Regular,AdobeInvisFont;
+}
+
+.about-title.team, .team-member-title {
+    text-align: center;
+    margin: 25px auto;
+}
+
+.team-member-title {
+    margin: 10px 0;
+    color: #1D9D73;
+    font-size: 26px;
+    font-family: Ubuntu-Light,Ubuntu,BadScript-Regular,AdobeInvisFont;
+}
+
+.sphere-title {
+    color:#4DB677;
+    font-size: 30px;
+
+    padding-bottom: 25px;
+}
+
+.about-sub-title, .how-we-work-sub-title {
+    color: #2CA47C;
+    font-size: 26px;
+    font-family: Ubuntu-Light,BadScript-Regular,AdobeInvisFont;
+
+    margin: 15px 0;
+}
+
+.how-we-work-sub-title {
+    display: inline-block;
+}
+
+.info-sub-title {
+    color: #333333;
+    font-family: Ubuntu-Light,Ubuntu,BadScript-Regular,AdobeInvisFont;
+    font-size: 26px;
+}
+
+.about-text {
+    display: block;
+
+    color: #B0B0B0;
+    text-align: justify;
+}
+
+.about-text.member {
+    text-align: center;
+}
+
+/* Container 
+============================*/
+
+.container {
+    /* max-width: 100%; */
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.container.footer {
+    max-width: 250px;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.container-vetical {
+    padding: 26px 0;
+}
+
+.flex-container, .flex-container-circles {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+
+    flex-wrap: nowrap;
+}
+
+.flex-container.team {
+
+}
+
+.flex-container-circles {
+    margin-bottom: 50px;
+}
+
+.flex-container-circles:last-child {
+    margin-bottom: 0px;
+}
+
+.flex-container-items {
+    max-width: 49%;
+
+    font-size: 0;
+
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+
+
+
+
+.header-left-container {
+    width: 100%;
+    max-width: 265px;
+    
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
+
+}
+
+.header-right-container {
+    width: 100%;
+    max-width: 560px;
+
+    padding-left: 40px;
+
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    
+}
+
+.main-container-first {
+    border-bottom: 1px solid #E5E9EB;
+    margin-top: 124px;
+}
+
+.main-container-second {
+    /* margin-top: 100px;
+    margin-bottom: 100px; */
+    border-bottom: 1px solid #E5E9EB;
+    padding: 100px 0;
+}
+
+.main-container-third {
+    border-bottom: 1px solid #E5E9EB;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.info-container {
+    margin-right: 40px;
+    padding-bottom: 70px;
+}
+
+.info-container:last-child {
+    margin-right: 0;
+}
+
+.check-mark {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.check-box-container {
+    font-size: 0;
+}
+
+.circle-items {
+    align-items: top;
+}
+
+/* Content
+============================*/
+
+.content-right {
+    display: block;
+
+    /* padding-bottom: 60px; */
+    max-width: 45%;
+}
+
+
+/* sphere-description
+============================*/
+
+.sphere-description {
+    max-width: 68%;
+    display: inline-block;
+
+    margin-left: 35px;
+
+    font-size: 15px;
+}
+
+/* images-containers
+============================*/
+
+.images-left-container {
+    max-width: 50%;
+
+    position: relative;
+}
+
+/* nav
+============================*/
+
+.nav {
+    max-width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+    flex-basis: 0;
+    flex-grow: 0.8;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #4E4E4E;
+
+    transition: color 0.3s linear;
+}
+
+.nav-link:hover {
+    color: #1D9D73;
+}
+
+
+/* BTNS / BTN
+============================*/
+
+.btn-learn-more {
+    display: block;
+
+    max-width: 250px;
+    margin: 40px 0;
+
+    border-radius: 20px;
+    background-color: #1D9D73;
+    padding: 10px 30px;
+
+    color: #FFFFFF;
+    text-align: center;
+
+    text-decoration: none;
+}
+
+
+
+/* pictures
+============================*/
+
+.loupe-img {
+    max-width: 3.5%;
+}
+
+.wegy-logo-2 {
+    margin-left: -15px;
+}
+
+.wegy-logo-1.footer {
+    max-width: 50%;
+}
+
+.wegy-logo-2.footer {
+    max-width: 50%;
+}
+
+.left-big-picture {
+    max-width: 100%;
+}
+
+.left-little-picture {
+    max-width: 70%;
+
+    box-shadow: 10px 0px 5px #1b1a1d85;
+
+    position: absolute;
+
+    bottom: 7px;
+    left: -150px;
+}
+
+.right-big-picture {
+    max-width: 100%;
+}
+
+.right-little-picture {
+    max-width: 70%;
+
+    box-shadow: -10px 0px 5px #1b1a1d85;
+
+    position: absolute;
+
+    bottom: 7px;
+    right: -150px;
+}
+
+.team-member {
+    text-align: center;
+
+    width: 370px;
+    height: 370px;
+
+    overflow: hidden;
+    position: relative;
+
+    margin: 15px;
+}
+
+.team-member-img-1 {
+    position: absolute;
+    
+    top: 40%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.team-member-img-2 {
+    position: absolute;
+    
+    top: 30%;
+    left: 90%;
+
+    transform: translate(-50%, -50%);
+}
+
+.team-member-img-3 {
+    position: absolute;
+    
+    top: 55%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
